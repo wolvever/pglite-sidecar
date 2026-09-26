@@ -1,0 +1,24 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock.bak
+
+# Sidecar data directory (default --data-dir)
+/data/
+*.pid
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Go example
+examples/go/go-example
+examples/go/pglite-go-example
+examples/go/*.exe
+
+# Local scratch
+/tmp/
+*.log
