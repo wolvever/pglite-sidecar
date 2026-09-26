@@ -116,7 +116,7 @@ Defaults (from `MultiProcessOptions::default()`):
 
 - user: `postgres`
 - database: `postgres`
-- host: a short directory under the OS temp dir containing `.s.PGSQL.5432`
+- host: a short directory (often `/tmp` or `/dev/shm` on Linux) containing `.s.PGSQL.5432`
 
 The `host` query parameter is a **directory**, not the socket file itself — the
 same convention as libpq / `pgx`. There is no password. There is no TCP port:
